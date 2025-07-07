@@ -17,5 +17,5 @@ function updateDisplay() {
   const secondsElapsed = (now - startTime) / 1000;
   const gainPerSecond = baseAmount * rate / (365 * 24 * 60 * 60);
   const newAmount = baseAmount + gainPerSecond * secondsElapsed;
-  document.getElementById("solde").innerText = newAmount.toFixed(2) + " €";
+  document.getElementById("solde").innerText = newAmount.toFixed(6) + " €";
 }
