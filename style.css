@@ -1,39 +1,46 @@
 
+/* Google Font: Orbitron (effet crypto digital) */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 body {
-  background: linear-gradient(to right, #ffecd2, #fcb69f);
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  font-family: 'Orbitron', sans-serif;
+  color: #eee;
   text-align: center;
   padding: 30px;
-  color: #333;
 }
 
 .container {
   max-width: 600px;
   margin: auto;
-  background: white;
+  background: #1a1a1a;
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,255,150,0.5);
 }
 
 #solde {
-  font-family: 'Orbitron', sans-serif;
-  color: #28a745;
+  font-size: 3em;
+  color: #00ffcc;
   margin: 20px 0;
+  letter-spacing: 1px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .footer {
   font-size: 0.9em;
-  color: #666;
+  color: #999;
 }
 
 .note {
   font-size: 0.8em;
-  color: #888;
+  color: #777;
 }
 
 .illustration {
   width: 100%;
   max-width: 300px;
   margin-top: 20px;
+  border: 2px solid #00ffcc;
+  border-radius: 12px;
 }
