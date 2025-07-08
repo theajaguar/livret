@@ -24,6 +24,9 @@ body {
   margin: 20px 0;
   letter-spacing: 1px;
   font-family: 'Orbitron', sans-serif;
+  word-break: break-word;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .footer {
@@ -42,4 +45,11 @@ body {
   margin-top: 20px;
   border: 2px solid #00ffcc;
   border-radius: 12px;
+}
+
+/* Responsive pour smartphone */
+@media screen and (max-width: 600px) {
+  #solde {
+    font-size: 2em;
+  }
 }
