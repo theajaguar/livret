@@ -1,6 +1,5 @@
-
 let baseAmount = 300.00;
-let rate = 0.02; // 2 % par an
+let rate = 0.02;
 let startTime = Date.now();
 
 fetch("data.json")
@@ -17,5 +16,12 @@ function updateDisplay() {
   const secondsElapsed = (now - startTime) / 1000;
   const gainPerSecond = baseAmount * rate / (365 * 24 * 60 * 60);
   const newAmount = baseAmount + gainPerSecond * secondsElapsed;
-  document.getElementById("solde").innerText = newAmount.toFixed(8) + " €";
+  const soldeEl = document.getElementById("solde");
+  soldeEl.innerText = newAmount.toFixed(8) + " €";
+
+  // Animation scale rapide
+  soldeEl.style.transform = "scale(1.1)";
+  setTimeout(() => {
+    soldeEl.style.transform = "scale(1)";
+  }, 150);
 }
