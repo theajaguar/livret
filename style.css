@@ -48,20 +48,9 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: clamp(1em, 6vw, 2.5em);
   margin-bottom: 20px;
-}
-
-/* Responsive mobile : titre encore plus petit */
-@media screen and (max-width: 600px) {
-  #solde {
-    font-size: 1.1em;
-  }
-
-  h1 {
-    font-size: 1em;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: unset;
 }
