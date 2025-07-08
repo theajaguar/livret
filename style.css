@@ -47,9 +47,21 @@ body {
   border-radius: 12px;
 }
 
-/* Responsive pour smartphone : rÃ©duction plus forte */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Responsive pour smartphone : rÃ©duction du solde + titre */
 @media screen and (max-width: 600px) {
   #solde {
+    font-size: 1.1em;
+  }
+
+  h1 {
     font-size: 1.4em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
