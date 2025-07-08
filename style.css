@@ -55,7 +55,7 @@ h1 {
 /* Responsive pour smartphone : rÃ©duction du solde + titre */
 @media screen and (max-width: 600px) {
   #solde {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
 
   h1 {
