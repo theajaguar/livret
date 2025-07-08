@@ -50,6 +50,6 @@ body {
 /* Responsive pour smartphone */
 @media screen and (max-width: 600px) {
   #solde {
-    font-size: 2em;
+    font-size: 1.4em;
   }
 }
