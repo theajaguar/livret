@@ -52,7 +52,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Responsive mobile : rÃ©duction plus forte du titre */
+/* Responsive mobile : titre encore plus petit */
 @media screen and (max-width: 600px) {
   #solde {
     font-size: 1.1em;
