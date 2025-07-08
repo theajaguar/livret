@@ -47,7 +47,7 @@ body {
   border-radius: 12px;
 }
 
-/* Responsive pour smartphone */
+/* Responsive pour smartphone : rÃ©duction plus forte */
 @media screen and (max-width: 600px) {
   #solde {
     font-size: 1.4em;
