@@ -1,4 +1,4 @@
-let baseAmount = 300.00;
+let baseAmount = 350.00;
 let rate = 0.02;
 let startTime = Date.now();
 
